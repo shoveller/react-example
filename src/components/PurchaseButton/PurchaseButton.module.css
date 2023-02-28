@@ -1,0 +1,23 @@
+.button {
+  background-color: var(--color-primary-100);
+  color: var(--color-white);
+  border: none;
+  border-radius: var(--border-radius-default);
+  width: 100%;
+  padding: var(--space-10px);
+  cursor: pointer;
+  font-size: var(--text-14px);
+  font-weight: var(--font-weight700);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button:hover {
+  background-color: var(--color-primary-200);
+}
+
+.logoForButton {
+  padding-right: 0.5rem;
+}

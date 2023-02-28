@@ -1,0 +1,50 @@
+/* 모든 수치는 figma 시안 기준으로 계산되었습니다. */
+:root {
+  /* 1rem 기준 */
+  font-size: 16px;
+
+  /* color system */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-secondary: #6b90dc;
+  --color-gray-100: #f1f2f4;
+  --color-gray-200: #dee0e3;
+  --color-gray-300: #999999;
+  --color-gray-400: #333333;
+  --color-primary-100: #03c75a;
+  --color-primary-200: #0aae4f;
+
+  /* font-size */
+  --text-11px: 0.6875rem; /*11px*/
+  --text-14px: 0.875rem; /*14px*/
+  --text-16px: 1rem; /*16px*/
+  --text-18px: 1.125rem; /*18px*/
+  --text-22px: 1.375rem; /*22px*/
+  --text-24px: 1.5rem; /*24px*/
+
+  /* font-weight */
+  --font-weight100: 100; /* Thin */
+  --font-weight300: 300; /* Light */
+  --font-weight400: 400; /* Regular */
+  --font-weight500: 500; /* Medium */
+  --font-weight700: 700; /* Bold */
+  --font-weight900: 900; /* Black */
+
+  /* line-height 및 letter-space */
+  --text-line-height-100percent: 100%;
+  --text-line-height-130percent: 130%;
+  --text-space-default: -0.01rem;
+
+  /* padding-size */
+  --space-default: 1rem; /*16px*/
+
+  /* padding-size-detail */
+  --space-10px: 0.625rem; /*10px*/
+  --space-120px: 7.5rem; /*120px*/
+
+  /* border-radius */
+  --border-radius-default: 0.375rem; /*6px*/
+
+  /* container-width */
+  --container-width: 22.5rem; /*360px*/
+}

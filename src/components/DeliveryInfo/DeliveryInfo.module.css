@@ -1,0 +1,41 @@
+.deliveryInfo {
+  display: flex;
+  margin-bottom: var(--space-default);
+  align-items: left;
+  justify-content: space-between;
+  flex-flow: column;
+}
+
+.deliveryWay {
+  font-weight: var(--font-weight500);
+  font-size: var(--text-14px);
+  color: var(--color-gray-400);
+}
+
+.deliveryCost {
+  font-weight: var(--font-weight700);
+  font-size: var(--text-14px);
+  color: var(--color-gray-400);
+  padding-right: 0.1875rem;
+}
+
+.deliveryCostTiming {
+  font-weight: var(--font-weight700);
+  font-size: var(--text-14px);
+  color: var(--color-secondary);
+}
+
+.deliveryCostPer {
+  font-weight: var(--font-weight500);
+  font-size: var(--text-14px);
+  color: var(--color-gray-300);
+}
+
+.divLineSmall {
+  color: var(--color-gray-200);
+  padding: 0 0.3125rem;
+}
+
+.dilveryInfoDetail {
+  margin-bottom: 0.3125rem;
+}

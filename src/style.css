@@ -1,0 +1,25 @@
+@import './reset.css';
+@import './system.css';
+@import './a11y.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body,
+body::before,
+body::after,
+body *,
+body * ::before,
+body * ::after {
+  box-sizing: border-box;
+}
+
+body {
+  /* inherit: ;따로 설정 없을시 부모요소로부터 해당 속성값 받음 */
+  font-family: 'Noto Sans KR', sans-serif;
+  line-height: var(--text-line-height-100percent);
+  letter-spacing: var(--text-space-default);
+  padding: var(--space-default);
+  width: var(--container-width);
+  border: 1px solid var(--color-gray-300);
+  /* flex box */
+  /* display: flex; */
+}

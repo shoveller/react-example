@@ -1,0 +1,14 @@
+.productInfo {
+  font-size: var(--text-18px);
+  font-weight: var(--font-weight700);
+  line-height: var(--text-line-height-130percent);
+  margin-bottom: var(--space-default);
+}
+
+.productInfo::before {
+  content: '상품정보';
+}
+
+.productImage {
+  margin-bottom: var(--space-default);
+}
